@@ -20,7 +20,7 @@ h6 {
   opacity: 1;
 }
 .sidebar-container {
-  z-index: calc(2147483638 - 1);
+  z-index: 2147483638;
   display: flex;
   justify-items: flex-end;
   justify-content: flex-end;
@@ -37,7 +37,7 @@ h6 {
   }
 }
 .sidebar-floating {
-  z-index: calc(2147483638 - 2);
+  z-index: 2147483637;
   padding: 2em;
   justify-items: flex-end;
   justify-content: flex-end;
@@ -136,7 +136,7 @@ h6 {
   }
 }
 .dyslexi-page {
-  z-index: calc(2147483638 - 3);
+  z-index: 2147483635;
   background: white !important;
 }
 .dyslexi-page-inner {
@@ -159,7 +159,7 @@ h6 {
   /* avoid selecting text while dragging */
   user-select: none;
   pointer-events: none;
-  z-index: calc(2147483638 - 4);
+  z-index: 2147483634;
 }
 .sep {
   opacity: 0.3;
